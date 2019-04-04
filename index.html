@@ -7,111 +7,14 @@
     <meta name="author" content="">
     <link rel="icon" href="assets/img/favicon.png">
 
-    <title>Under Maintanence</title>
+    <title>Under Maintenance</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/vendor/bs/css/bootstrap.min.css" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+      <link href="assets/css/animate.min.css" rel="stylesheet">      
     <!-- Custom styles for this template -->
-<style>
-    :root {
-      --primary-color: #282e85;  
-      --secondary-color: #f58220;
-      --offset-color: #00a651;  
-    }
-    html,body{background-color: var(--primary-color);}
-    .txt-primary{color: var(--secondary-color);}
-    .txt-secondary{color: var(--primary-color);}
-    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-        font-family: 'Montserrat', sans-serif;
-        margin-bottom: 0.5rem;
-        font-weight: 500;
-        line-height: 1.2;
-        color: #343a40;
-        margin-top: 0;
-    }
-    h6, .h6 {font-size: 0.875rem;}
-    .position-relative{position: relative}
-    .position-absolute {position: absolute !important;}
-    .z-index-n9 {z-index: -9;position: relative;}
-    .top-0 {top: 0;}
-    .right-0 {right: 0;}
-    .display-6 {font-size: 2rem;}
-
-    .logo{ height: 150px;}
-    .logo img{ height: 100%; width: auto; } 
-    .fill-grad-start {stop-color: #dddeff;}
-    .fill-grad-end {stop-color: #ecedfe;}
-    .m-headline{color: var(--primary-color);text-transform: uppercase;font-weight: 700}
-    .datenum{font-weight: bold;color: var(--offset-color);}
-    .datetxt{padding-right: 10px;text-align: left;}
-
-    .footer{color: #fff;width: 100%}
-    .footer{margin: 0;padding: 0}
-    .footer li{float: left;width: 25%;text-align: center;list-style: none}
-    .footer li a{color: #333;text-decoration: none;}
-    .footer li a:hover{color: #000;text-decoration: none}
-    .mp{padding-left: 0;padding-right: 0}
-    .ov{overflow-y: hidden;position: relative}
-
-    .cards{
-        margin: 3rem 135px;height: calc(100vh - 6rem);border-radius: 15px;box-shadow: 0 0 25px 0 rgba(0,0,0,0.3);
-        background: #fff url(assets/img/waves.svg) no-repeat center center fixed;background-size: cover;}
-    .d-md-block{padding-left: 250px}
-    .calcalutor{margin-top: 150px}
-
-
-@media (min-width: 1024px) {
-    .display-xl-4 {font-size: 3.5rem;}
-    .d-lg-block {display: block !important;}
-    .datenum{font-size: 42px;}
-    footer{padding: 44px 25px}
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 800px) and (max-width: 1280px) and (orientation: landscape) {
-    .logo {height: 100px;margin-top: 20px}
-    #countdown{margin-bottom: 150px}
-    .display-xl-4 {font-size: 2.5rem;}
-    .full-height {height: 100%;}
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  //CSS
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-    .logo {height: 100px;margin-top: 25px}
-    .mp{padding-left: 20px;}
-    .datenum{font-size: 36px;}
-    footer{padding: 36px 25px;margin-top: 80px}
-    .footer li{width: 50%;text-align: left}
-    .footer li a{display: list-item}
-    .pb-5{padding-bottom:.7rem !important}
-    .d-md-block{padding-left: 0}
-.cards {margin: 10px;height: auto;}
-.calcalutor {
-    /* margin-top: 50px; */
-    height: 200px;
-    margin: 20px;
-}
-</style>      
   </head>
 
 <body>
@@ -120,12 +23,12 @@
 		<div class="container-fluid d-flex h-100">
 			<div class="row justify-content-between align-items-center">
 				<!-- banner image -->
-				<div class="col-md-5 d-md-block">
+				<div class="col-md-5 d-md-block animated fadeInLeft">
 					<figure class="logo pb-5 mp">
 						<img src="assets/img/alcalculator-logo.png">
 					</figure>
                     <div class="pb-5 mp">
-					   <h3 class="display-6 display-xl-4 mb-4 font-weight-normal m-headline">Under Maintanence</h3>
+					   <h3 class="display-6 display-xl-4 mb-4 font-weight-normal m-headline"><span class="letters">Under Maintanence</span></h3>
 					   <p class="h6 text-light-gray font-weight-normal">Our website is currently undergoing scheduled maintenance.</p>
                         <p>Thank you for your patience.</p>
                     </div>
@@ -136,7 +39,7 @@
 				<!-- banner Content -->
 				<div class="col-md-7 col-lg-5 mt-5">
 					<figure class="w-100">
-						<img class="calcalutor" src="assets/img/calculator.svg">
+						<img class="calcalutor bounce" src="assets/img/calculator.min.svg">
 					</figure>
 				</div>
                 <div class="col-md-12">
@@ -157,39 +60,7 @@
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/timezz.js"></script>
     <script src="assets/js/js.cookie.js"></script>
-<script>
-function randomNumberFromRange(min,max)
-{
-    return Math.floor(Math.random()*(max-min+1)+min);
-}
-var randomNumber = randomNumberFromRange(60, 120);
-var d = new Date();
-var countdown=Cookies.get('countdown');
-var finalDate='';
-if (typeof countdown === "undefined"){
-    finalDate = new Date(d.getFullYear(), d.getMonth(), d.getDate(), d.getHours(), d.getMinutes()+randomNumber, d.getSeconds()).toUTCString();    
-    Cookies.set('countdown', { datetime: finalDate});
-}else{
-    countdown=$.parseJSON(countdown);
-    finalDate = countdown.datetime;    
-}
-
-const timer = new TimezZ("#countdown", {
-  date: finalDate,
-  text: {
-    hours: " hours",
-    minutes: " minutes",
-    seconds: " seconds"
-  },
-  canContinue: false,
-  template: '<span class="datenum">NUMBER</span><span class="datetxt">LETTER</span>',
-  finished() {
-    randomNumber = randomNumberFromRange(30, 70);
-    finalDate = new Date(d.getFullYear(), d.getMonth(), d.getDate(), d.getHours(), d.getMinutes()+randomNumber, d.getSeconds()).toUTCString();    
-    Cookies.set('countdown', { datetime: finalDate});      
-    location.reload();
-  }
-});
-</script>       
+    <script src="assets/js/anime.min.js"></script>
+    <script src="assets/js/script.js"></script>   
   </body>
 </html>
