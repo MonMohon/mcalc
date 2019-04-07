@@ -70,7 +70,7 @@ html,body{background-color: var(--primary-color);}
 .vertical-centred {padding-top: 0;padding-bottom: 5rem;}
 .logo{width: 120px;margin-top:2rem}
 .svg-bg{width: 70px}
-.display-xl-4 {font-size: 2rem;}
+.display-xl-4 {font-size: 1.2rem;}
 .datenum{font-size: 24px;}
 .mt-5 {margin-top: 1.5rem!important;}
 .mb-5 {margin-bottom:1rem!important;}
