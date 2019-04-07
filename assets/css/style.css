@@ -16,11 +16,11 @@ html,body{background-color: var(--primary-color);}
 .main-image{position: relative;width: 100%;}
 .svg-main-image,.svg-main-image svg {width: 100%;}
 .svg-main-image{position: relative;z-index: 333}
-.svg-main-image svg {margin-left: 0;margin-top: -100px}
-.svg-bg{position: absolute;bottom: 110px;z-index: 2;right: 30px;}
+.svg-main-image svg {margin-left: 0;margin-top: 0}
+.svg-bg{position: absolute;bottom: 30px;z-index: 2;right: 30px;}
 .top-logo{width: 100px;margin: 15px auto 0}
 .top-logo img,.logo img{width: 100%}
-.subtitle-top{color: var(--primary-color);text-transform: uppercase;font-weight: 700;margin-top: 120px}
+.subtitle-top{color: var(--primary-color);text-transform: uppercase;font-weight: 700;margin-top:50px}
 .subtitle-top .letter {display: inline-block;line-height: 1em;}
 .datenum{font-weight: bold;color: var(--offset-color);}
 .datetxt{padding-right: 10px;text-align: left;}
