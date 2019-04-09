@@ -15,7 +15,7 @@ html,body{background-color: var(--primary-color);}
 .section-bg {margin: 1rem;height: calc(100vh - 2rem);width: calc(100vw - 2rem);}
 .main-image{position: relative;width: 100%;}
 .svg-main-image,.svg-main-image svg {width: 100%;}
-.svg-main-image{position: relative;z-index: 333}
+.svg-main-image{position: relative;z-index: 333;width: 60%}
 .svg-main-image svg {margin-left: 0;margin-top: 0}
 .svg-bg{position: absolute;bottom: 30px;z-index: 2;right: 30px;}
 .top-logo{width: 100px;margin: 15px auto 0}
@@ -93,8 +93,9 @@ html,body{background-color: var(--primary-color);}
     .mt-5 {margin-top: 3rem!important;}
     .datenum{font-size: 42px;}
     .section-bg {margin: 3rem;height: calc(100vh - 6rem);width: calc(100vw - 6rem);}
+    .svg-main-image{width: 90%}
     .svg-main-image svg {margin-left: 0;margin-top: 30px}
-    .svg-bg{position: absolute;bottom: 50px;z-index: 2;right: 20px;}
+    .svg-bg{position: absolute;bottom: 0;z-index: 2;right: 20px;}
     .footer-link{bottom: 0;padding: 10px 25px;position: absolute}
     .footer-link li{width: 25%;text-align: left;float: left}
     .footer-link li a{display: inline-block;color: #ccc;}
