@@ -28,7 +28,7 @@ html,body{background-color: var(--primary-color);}
 .footer-link {color: var(--primary-color);width: 100%;position: relative;padding: 10px}
 .footer-link li{width: 50%;text-align: left;float: left}
 .footer-link .footer{margin: 0;padding: 0;list-style: none}
-.footer-link li a{color: var(--offset-color);text-decoration: none;display: inline-block}
+.footer-link li a{color: var(--offset-color);text-decoration: none;display: block}
 .footer-link li a:hover{color: var(--primary-color);text-decoration: none}
 
 @keyframes spin {0% {transform: rotate(0deg);}100% {transform: rotate(360deg);}}
