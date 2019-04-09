@@ -69,7 +69,7 @@ html,body{background-color: var(--primary-color);}
 }
 .fill-grad-start {stop-color: #dddeff;}
 .fill-grad-end {stop-color: #ecedfe;}
-.vertical-centred {padding-top: 11rem;padding-bottom: 0;}
+.vertical-centred {padding-top: 12rem;padding-bottom: 0;}
 .logo{width: 120px;margin-top:2rem}
 .svg-bg{width: 70px}
 .display-xl-4 {font-size: 1.2rem;}
