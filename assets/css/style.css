@@ -97,5 +97,6 @@ html,body{background-color: var(--primary-color);}
     .svg-bg{position: absolute;bottom: 50px;z-index: 2;right: 20px;}
     .footer-link{bottom: 0;padding: 10px 25px;position: absolute}
     .footer-link li{width: 25%;text-align: left;float: left}
-    .footer-link li a{display: inline-block}
+    .footer-link li a{display: inline-block;color: #ccc;}
+    .footer-link li a:hover{color: #fff;}
 }
