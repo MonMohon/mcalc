@@ -25,7 +25,7 @@ html,body{background-color: var(--primary-color);}
 .datenum{font-weight: bold;color: var(--offset-color);}
 .datetxt{padding-right: 10px;text-align: left;}
 #gear{animation:spin 4s linear infinite;transform-origin: 50% 50%;}
-.footer-link {color: var(--primary-color);width: 100%;position: absolute;bottom: -60px}
+.footer-link {color: var(--primary-color);width: 100%;position: absolute;}
 .footer-link .footer{margin: 0;padding: 0;list-style: none}
 .footer-link li a{color: #ccc;text-decoration: none;}
 .footer-link li a:hover{color: #fff;text-decoration: none}
@@ -75,10 +75,17 @@ html,body{background-color: var(--primary-color);}
 .mt-5 {margin-top: 1.5rem!important;}
 .mb-5 {margin-bottom:1rem!important;}
 #countdown {margin-bottom: 10px;}          
-.footer-link{padding: 10px 25px;}
-.footer-link li{width: 50%;text-align: left;float: left}
-.footer-link li a{display: list-item}
+.m-footer{color: var(--primary-color);width: 100%;position: relative;padding: 10px 25px;}
+.m-footer li{width: 50%;text-align: left;float: left}
+.m-footer li a{display: list-item;color: #ccc;text-decoration: none;}
+.m-footer .footer{margin: 0;padding: 0;list-style: none}
+.m-footer li a:hover{color: #fff;text-decoration: none}
 
+@media (min-height: 700px){
+    .footer-link {
+        display: block;
+    }
+}
 @media (min-width: 768px){
     .boxed {padding-left: 3rem;padding-right: 3rem;}
     .vertical-centred {padding-top: 3rem;padding-bottom: 3rem;}
